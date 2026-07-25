@@ -37,3 +37,7 @@ class Solution {
 /*I done this using i creted a sum that stores total array elements sum and i created a dp array dp[n][sum+1] i know dp[n-1][j] represents till the last index the
 the target j is achieved or not ,after i created the dp array i am finding if sum/2 is possible or not it is possible i know there are 2 subsets with equal sum
 so i used a loop and find the minimum difference from the dp array */
+//TC : O(N*SUM)-> to make dp + O(2N)-> to find sum and init every element 0 target with true + O(SUM/2) to find difference 
+//SC : O(N*SUM)
+
+
